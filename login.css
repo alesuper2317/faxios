@@ -1,0 +1,68 @@
+/* Access Display */
+:root{
+    --bg:#dddfe2; --card:#ffffff; --primary:#7908e4; --access-text:#6b7280;
+}
+
+html,body{height:100%; margin:0; font-family:sans-serif, sans-serif;}
+body{
+    background:var(--bg);
+    display:flex; justify-content:center; 
+    color:#111827;
+}
+
+.wrap{
+    width:100%; 
+    max-width:700px; 
+    display:grid; 
+    align-items:center;
+}
+
+.card{
+    background:var(--card); 
+    border-radius:14px; 
+    padding:26px; 
+    box-shadow:0 12px 30px rgba(15,23,42,0.08);
+}
+
+.placeholder {
+  width: 620px;
+  padding: 14px;
+  border-radius: 10px;
+  background: #f0f4fa;
+  border: 1px solid #e7eefb;
+  color: var(--access-text);
+  margin-bottom: 5px;
+  transition: all 0.2s ease;
+  cursor: text;
+  font-size: medium;
+}
+
+.placeholder:active,
+.placeholder:focus {
+  background: #e0e8f5;
+  border-color: #c7d6ee;    
+  transform: scale(0.98);  
+  outline: none;
+}
+
+.access-button{
+    width: 650px; 
+    padding:12px; 
+    border-radius:10px; 
+    background:var(--primary); 
+    color:white; 
+    text-align:center; 
+    font-weight:600;
+    border: none;
+    outline: none;
+}
+
+.access-button:hover {
+  background: #6706c2;
+}
+
+.access-button:active {
+  background: #5c07ac;
+  transform: scale(0.97);  
+}
+
