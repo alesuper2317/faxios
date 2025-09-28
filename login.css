@@ -1,12 +1,8 @@
-body{
-    background-color: black !important;
-}
-
 div.form-group div.input-icon input{
     background-color: black;
     color: white;
 }
 
 div.backstretch{
-    display: none;
+    background-color: black;
 }
