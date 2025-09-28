@@ -2,7 +2,7 @@
     "https://registrofamiglie.axioscloud.it": {
         "css": ["index"]
     },
-    "https://registrofamiglie.axioscloud.it/SD/SD_Login.aspx": {
+    "https://registrofamiglie.axioscloud.it/Pages/SD/SD_Login.aspx": {
         "css": ["login"]
     }
 }
