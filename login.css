@@ -2,3 +2,7 @@ div.form-group div.input-icon input{
     background-color: black !important;
     color: white !important;
 }
+
+div.backstretch{
+    display: none;
+}
