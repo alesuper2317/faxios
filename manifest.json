@@ -1,0 +1,8 @@
+{
+    "https://registrofamiglie.axioscloud.it": {
+        "css": ["index"]
+    },
+    "https://registrofamiglie.axioscloud.it/SD/SD_Login.aspx": {
+        "css": ["login"]
+    }
+}
